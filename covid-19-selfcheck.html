@@ -8,6 +8,7 @@
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css" />
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="js/lazysizes.min.js" async></script>
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-160700196-1"></script>
@@ -274,13 +275,13 @@
           <h2>Những hình ảnh bạn có thể chia sẻ</h2>
 
           <div class="img">
-          <img style="width: 100%" src="images/canh-bao-covid19.jpg" alt="canh-bao-covid19"></div>
+          <img style="width: 100%" class="lazyload"  data-src="images/canh-bao-covid19.jpg" alt="canh-bao-covid19"></div>
           <div class="img">
-          <img style="width: 100%" src="images/bao-ve-nguoi-gia.jpg" alt="bao-ve-nguoi-gia"></div>
+          <img style="width: 100%" class="lazyload" data-src="images/bao-ve-nguoi-gia.jpg" alt="bao-ve-nguoi-gia"></div>
           <div class="img">
-            <img style="width: 100%" src="images/nghi-nhiem-covid19.png" alt="nghi-nhiem-covid19"></div>
+            <img style="width: 100%"  class="lazyload" data-src="images/nghi-nhiem-covid19.jpg" alt="nghi-nhiem-covid19"></div>
           <div class="img">
-            <img style="width: 100%" src="images/loi-khuyen-covid19.jpg" alt="loi-khuyen-covid19"></div>
+            <img style="width: 100%"  class="lazyload" data-src="images/loi-khuyen-covid19.jpg" alt="loi-khuyen-covid19"></div>
           <blockquote>
             Mã nguồn: <a href="https://github.com/lambdademy/covid19-selfcheck">https://github.com/lambdademy/covid19-selfcheck</a>
           </blockquote>
@@ -327,5 +328,6 @@
     </script>
   </body>
   <script src="js/app.js"></script>
+
 </html>
 
