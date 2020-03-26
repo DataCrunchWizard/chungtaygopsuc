@@ -1,11 +1,38 @@
 const toNodes = html => new DOMParser().parseFromString(html, 'text/html').body.childNodes[0];
 
-document.body.insertBefore(toNodes(`<div class="topnav">
-  <a class="active" href=".">Chung Tay</a>
-  <a href="covid-19-selfcheck.html">Tự Kiểm Tra</a>
-  <a href="covid-19-vietnam-forecast.html">Dự Báo</a>
-  
-</div>`), document.body.firstChild);
+document.body.insertBefore(toNodes(`
+
+<nav class="navbar is-fixed-top  is-light">
+  <div class="navbar-brand">
+     <a class="navbar-item" href=".">
+        Trang Chủ 
+      </a>
+         
+    <a class="navbar-item" href="covid-19-selfcheck.html">Tự Kiểm Tra</a>
+    
+    <a class="navbar-item" href="covid-19-vietnam-forecast.html">Dự Báo</a>
+    
+  </div>
+
+  <div id="" class="navbar-menu">
+   
+
+    <div class="navbar-end">
+      <div class="navbar-item">
+        <div class="field is-grouped">
+          <p class="control">
+            <div class="fb-share-button" data-href="https://lambdademy.github.io/covid19-selfcheck/" data-layout="button_count" data-size="large"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Flambdademy.github.io%2Fcovid19-selfcheck%2F&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">Chia sẻ</a>
+            </div>
+          </p>
+         
+        </div>
+      </div>
+    </div>
+    
+  </div>
+</nav>
+
+`), document.body.firstChild);
 
 
 
