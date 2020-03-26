@@ -1,9 +1,9 @@
 const toNodes = html => new DOMParser().parseFromString(html, 'text/html').body.childNodes[0];
 
 document.body.insertBefore(toNodes(`<div class="topnav">
-  <a class="active" href=".">Chung Tay Góp Sức</a>
-  <a href="covid-19-selfcheck.html">Tự Kiểm Tra COVID-19</a>
-  <a href="covid-19-vietnam-forecast.html">Dự Báo COVID-19 tại Việt Nam</a>
+  <a class="active" href=".">Chung Tay</a>
+  <a href="covid-19-selfcheck.html">Tự Kiểm Tra</a>
+  <a href="covid-19-vietnam-forecast.html">Dự Báo</a>
   
 </div>`), document.body.firstChild);
 
