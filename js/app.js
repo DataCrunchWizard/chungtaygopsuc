@@ -8,7 +8,7 @@ document.body.insertBefore(toNodes(`
         Trang Chủ 
       </a>
          
-    <a class="navbar-item" href="covid-19-selfcheck.html">Tự Kiểm Tra</a>
+    <a class="navbar-item" href="covid-19-selfcheck.html">Tự Kiểm Tra COVID-19</a>
     
     <a class="navbar-item" href="covid-19-vietnam-forecast.html">Dự Báo</a>
     
